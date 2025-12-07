@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto" sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #ffffff;
+  color: #4c4c4c;
+}
+
+.navbar a {
+  padding-right: 18px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 25px;
+  font-size: 15px;
+}
+
+.navbar ul li:hover {
+  color: #d2b79d;
+}
+
+/* Image sections */
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Center text */
+
+.center {
+  text-align: center;
+  margin-bottom: 30px;
+  /* margin-top: 30px; */
+}
+
+.center h2 {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.1s;
+}
+
+.center p {
+  text-align: center;
+  line-height: 1.4;
+  margin: 0px 350px;
+}
+
+/* Third section */
+
+.third {
+  display: flex;
+  justify-content: center;
+  background-color: #ead3a7;
+  gap: 30px;
+  padding: 60px;
+  color: white;
+}
+
+/* Fourth section */
+
+.forth {
+  padding: 20px 0px;
+}
+
+.forth-center {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.forth-center h2 {
+  font-size: 30px;
+}
+
+.forth-center p {
+  padding-top: 10px;
+}
+
+.forth-upper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 600px;
+  margin-left: 300px;
+}
+
+.forth-left {
+  background-color: #a38dbf;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.forth-right img {
+  width: 220px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.forth-right p {
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+/* Fifth section */
+
+.fifth {
+  background-color: #ead3a7;
+  padding: 20px 0px;
+  color: whitesmoke;
+  height: 45vh;
+  width: 100%;
+  font-weight: 500;
+}
+
+.fifth-upper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.divMerge {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 30vh;
+  width: 100%;
+}
+
+.divOne {
+  display: block;
+  width: 370px;
+}
+
+.divOne p {
+  line-height: 1.4;
+}
+
+.sustainable {
+  width: 20%;
+}
+
+.sustainable p {
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+/* Social Section */
+
+.Social {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #fefefe;
+}
+
+.Social h2 {
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.images img {
+  height: 180px;
+  width: 250px;
+}
+
+/* Last sections */
+
+.secondLast {
+  background-color: #a996bc;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.last {
+  background-color: #333333;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
